@@ -1,10 +1,13 @@
-call pathogen#infect()
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 syntax on
-filetype plugin on
-filetype indent on
 set number " show line numbers
 set paste " make pasting work
+
+if has("autocmd")
+  filetype plugin indent on
+endif
 
 " Enable syntax folding for blocks and comments
 set foldmethod=syntax
@@ -12,6 +15,7 @@ set foldlevel=100
 
 " Convert tabs to spaces
 set expandtab
+set tabstop=2
 
 " Remove whistespace at end of line before write
 func! StripTrailingWhitespace()
