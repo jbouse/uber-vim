@@ -13,4 +13,4 @@ Installation
     git clone https://github.com/jbouse/uber-vim.git ~/.vim
     cd ~/.vim
     git submodule update --init
-    cp vimrc ~/.vimrc
+    ln -sf ~/.vim/vimrc ~/.vimrc
