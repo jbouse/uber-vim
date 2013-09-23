@@ -1,5 +1,5 @@
-call pathogen#incubate()
-call pathogen#helptags()
+exec pathogen#infect()
+exec pathogen#helptags()
 
 syntax on
 set number " show line numbers
