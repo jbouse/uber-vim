@@ -23,3 +23,12 @@
 [submodule "bundle/unimpaired"]
 	path = bundle/unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/bind"]
+	path = bundle/bind
+	url = git://github.com/Absolight/vim-bind.git
+[submodule "bundle/UpdateDNSSerial"]
+	path = bundle/UpdateDNSSerial
+	url = git://github.com/vim-scripts/UpdateDNSSerial.git
+[submodule "bundle/gitignore"]
+	path = bundle/gitignore
+	url = git://github.com/vim-scripts/gitignore.vim.git
