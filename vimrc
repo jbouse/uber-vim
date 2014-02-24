@@ -17,6 +17,8 @@ set foldlevel=100
 set expandtab
 set tabstop=2
 
+set colorcolumn=73,80,100
+
 " Remove whistespace at end of line before write
 func! StripTrailingWhitespace()
   normal mZ
